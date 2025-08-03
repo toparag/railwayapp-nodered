@@ -18,7 +18,7 @@
  *  - Editor Settings
  *  - Node Settings
  *
- **/
+ **/  
 
 var when = require("when")
 
