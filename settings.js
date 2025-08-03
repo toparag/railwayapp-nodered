@@ -141,7 +141,7 @@ module.exports = {
      * The `pass` field is a bcrypt hash of the password.
      * See http://nodered.org/docs/security.html#generating-the-password-hash
      */
-    //httpNodeAuth: {user:"user",pass:"$2a$08$zZWtXTja0fB1pzD4sHCMyOCMYz2Z6dNbM6tl8sJogENOMcxWV9DN."},
+    httpNodeAuth: {user:"user",pass:"$2b$08$6rO8Tc.XY/ZMzz6fCRkRW.pF.WDRZ/ekEdhgPBDYTpuOS48b0FOFW"},
     //httpStaticAuth: {user:"user",pass:"$2a$08$zZWtXTja0fB1pzD4sHCMyOCMYz2Z6dNbM6tl8sJogENOMcxWV9DN."},
 
     /*******************************************************************************
