@@ -9,4 +9,5 @@ else
   echo "settings.js already exists in /data."
 fi
 
-exec npm start
+# Force Node-RED to use /data explicitly
+exec node-red --userDir /data
