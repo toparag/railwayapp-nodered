@@ -2,7 +2,7 @@
 FROM nodered/node-red:3.1.0
 
 # Set user directory to /data (persistent volume)
-ENV NODE_RED_USER_DIR=/data
+#ENV NODE_RED_USER_DIR=/data
 
 # Copy your custom settings.js into /data
 
