@@ -4,7 +4,7 @@
     "description": "Node-RED package for railway",
     "main": "index.js",
     "scripts": {
-        "start": "node-red",
+        "start": "node-red --settings /app/settings.js",
         "start:dev": "NODE_RED_USERNAME=test NODE_RED_PASSWORD=test node-red --userDir .",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
