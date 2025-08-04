@@ -5,8 +5,8 @@ FROM nodered/node-red:3.1.0
 ENV NODE_RED_USER_DIR=/data
 
 # Copy your custom settings.js into /data
-COPY settings.js /data/settings.js
-
+COPY settings.js /app/settings.js
+COPY entrypoint.sh /entrypoint.sh
 # Ensure permissions (optional but recommended)
 #RUN chown -R node-red:node-red /data
 
