@@ -8,7 +8,7 @@ ENV NODE_RED_USER_DIR=/data
 COPY settings.js /data/settings.js
 
 # Ensure permissions (optional but recommended)
-RUN chown -R node-red:node-red /data
+#RUN chown -R node-red:node-red /data
 
 # Expose Node-RED default port
 EXPOSE 1880
