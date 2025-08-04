@@ -9,5 +9,9 @@ else
   echo "settings.js already exists in /data."
 fi
 
-# Force Node-RED to use /data explicitly
+echo "=== settings.js content ==="
+cat /data/settings.js
+echo "==========================="
+
 exec node-red --userDir /data
+
